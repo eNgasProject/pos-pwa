@@ -2,3 +2,4 @@ node_modules/
 build/
 .env
 mongodb+srv://kyilwada:eG1ZLjYtLkWtwUMy@cluster0.h2k4aib.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+mongosh "mongodb+srv://kyilwada:eG1ZLjYtLkWtwUMy@cluster0.h2k4aib.mongodb.net/pos_db"

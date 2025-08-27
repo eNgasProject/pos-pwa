@@ -3,6 +3,9 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/7.3.0/workbox
 
 workbox.setConfig({ debug: false });
 
+// Log the manifest for debugging
+console.log('Precache Manifest:', self.__WB_MANIFEST);
+
 // Fallback if self.__WB_MANIFEST is not available
 const precacheManifest = self.__WB_MANIFEST || [];
 workbox.precaching.precacheAndRoute(precacheManifest);
